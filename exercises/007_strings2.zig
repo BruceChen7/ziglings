@@ -19,6 +19,5 @@ pub fn main() void {
         \\Jamming good with Andrew Kelley
         \\And the Spiders from Mars
     ;
-
     std.debug.print("{s}\n", .{lyrics});
 }

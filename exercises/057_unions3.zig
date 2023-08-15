@@ -13,6 +13,7 @@
 // Let's convert Insect. Doctor Zoraptera has already deleted the
 // explicit InsectStat enum for you!
 //
+const InsectStat = enum { flowers_visited, still_alive };
 const std = @import("std");
 
 const Insect = union(InsectStat) {
